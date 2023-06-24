@@ -1,2 +1,1 @@
-# clerk-app
- 
+# Clerk Demo
