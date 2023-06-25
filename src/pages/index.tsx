@@ -40,7 +40,7 @@ export default function Home() {
           </p>
         </div>
         <div className="mt-6 text-center">
-          <SignInButton mode="redirect" redirectUrl="/dash">
+          <SignInButton mode="modal" redirectUrl="/dash">
             <button className="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-l from-blue-600 to-violet-600 shadow-lg shadow-transparent hover:shadow-blue-700/50 border border-transparent text-white text-sm font-medium rounded-full focus:outline-none focus:ring-2 focus:ring-sky-600 focus:ring-offset-2 focus:ring-offset-white py-2 px-4">
               Have a look around!
               <svg

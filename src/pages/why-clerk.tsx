@@ -4,7 +4,7 @@ import InfoPages from "./components/InfoPages";
 
 const WhyClerk = () => {
   return (
-    <InfoPages next={{ title: "Why Me?", link: "/hire-me" }}>
+    <InfoPages next={{ title: "Why Hire Me?", link: "/hire-me" }}>
       <Heading level={1}>Why Clerk?</Heading>
       <div>
         <Heading level={2}>The Introduction @ Render</Heading>

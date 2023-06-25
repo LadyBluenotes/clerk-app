@@ -11,10 +11,10 @@ const InfoPages = ({
 }) => {
   return (
     <main className="max-w-3xl mx-auto text-purple-950">
-      <section className="bg-white bg-opacity-80 backdrop-blur-sm mt-4 rounded-lg h-fit px-5 py-6">
+      <section className="bg-white bg-opacity-80 backdrop-blur-sm mt-4 mb-4 rounded-lg h-fit px-5 py-6">
         {children}
       </section>
-      if (prev || next) {<NavPage prev={prev} next={next} />}
+      {<NavPage prev={prev} next={next} />}
     </main>
   );
 };
