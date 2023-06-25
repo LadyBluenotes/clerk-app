@@ -3,7 +3,7 @@ import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
 
 const NavPage = ({ prev, next }: any) => {
   return (
-    <div className="grid md:grid-cols-2 lg:mx-24 mt-12 pb-6 md:space-x-4 space-y-4 md:space-y-0">
+    <div className="grid md:grid-cols-2 lg:mx-24 pb-6 md:space-x-4 space-y-4 md:space-y-0">
       {prev && (
         <Link
           href={prev.link}
