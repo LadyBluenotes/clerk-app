@@ -1,7 +1,7 @@
 import Heading from "./components/Headings";
 import InfoPages from "./components/InfoPages";
 import Paragraph from "./components/Paragraph";
-import Link from "./components/Link";
+import Link from "./components/CustomLinks";
 
 const HireMe = () => {
   const techItems = [

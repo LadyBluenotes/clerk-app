@@ -2,16 +2,10 @@ import Header from "./components/Header";
 import Heading from "./components/Headings";
 import InfoPages from "./components/InfoPages";
 import Paragraph from "./components/Paragraph";
-import Links from "./components/Link";
+import Links from "./components/CustomLinks";
 
 const Blog = () => {
-
-  const docsHelp = [
-    "SolidJS",
-    "MUI",
-    "Accessible for All",
-    "Astro"
-  ];
+  const docsHelp = ["SolidJS", "MUI", "Accessible for All", "Astro"];
 
   return (
     <InfoPages
@@ -46,7 +40,8 @@ const Blog = () => {
         other open source projects with their documentation.
       </Paragraph>
       <Paragraph>
-        I&apos;ve been helping with the documentation for the following projects:
+        I&apos;ve been helping with the documentation for the following
+        projects:
         <ul className="list-disc pl-16 my-5">
           {docsHelp.map((item, index) => (
             <li key={index}>
@@ -56,23 +51,39 @@ const Blog = () => {
         </ul>
       </Paragraph>
       <Paragraph>
-        Through these projects, I even gained the motivation to create a <Links href="https://docs.sarahgerrard.me/" words="documentation site" /> for my own projects.
+        Through these projects, I even gained the motivation to create a{" "}
+        <Links
+          href="https://docs.sarahgerrard.me/"
+          words="documentation site"
+        />{" "}
+        for my own projects.
       </Paragraph>
       <Heading level={2}>Blog Posts</Heading>
       <Paragraph>
-        I&apos;ve also been writing blog posts to help people understand the more complex concepts in the tech industry. I&apos;ve written about:
+        I&apos;ve also been writing blog posts to help people understand the
+        more complex concepts in the tech industry. I&apos;ve written about:
         <ul className="list-disc pl-16 my-5">
           <li>
-            <Links href="https://blog.sarahgerrard.me/unraveling-the-magic-of-the-virtual-dom" words="Unraveling the Magic of the Virtual DOM" />
+            <Links
+              href="https://blog.sarahgerrard.me/unraveling-the-magic-of-the-virtual-dom"
+              words="Unraveling the Magic of the Virtual DOM"
+            />
           </li>
           <li>
-            <Links href="https://blog.sarahgerrard.me/the-fundamentals-of-algorithms" words="The Fundamentals of Algorithms" />
+            <Links
+              href="https://blog.sarahgerrard.me/the-fundamentals-of-algorithms"
+              words="The Fundamentals of Algorithms"
+            />
           </li>
           <li>
-            <Links href="https://blog.sarahgerrard.me/git-and-the-command-line" words="Streamlining Your Workflow with Git and the Command Line" />
+            <Links
+              href="https://blog.sarahgerrard.me/git-and-the-command-line"
+              words="Streamlining Your Workflow with Git and the Command Line"
+            />
           </li>
-          </ul>
-          Just to name a few! More of my blogs can be found at my <Links href="https://blog.sarahgerrard.me/" words="blog site" />.
+        </ul>
+        Just to name a few! More of my blogs can be found at my{" "}
+        <Links href="https://blog.sarahgerrard.me/" words="blog site" />.
       </Paragraph>
     </InfoPages>
   );

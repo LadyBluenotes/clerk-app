@@ -17,28 +17,28 @@ export default function Dash() {
       description:
         "I've met some of the fanatastic people who work at Clerk! But I have more reasons why I want to join the team. Here, you'll find out why.",
       icon: <FaPuzzlePiece className="text-violet-400 text-4xl" />,
-      link: "/why-clerk"
+      link: "/why-clerk",
     },
     {
       name: "Why Hire Me?",
       description:
         "So you know why I want to join Clerk. But why should you hire me? I'll tell you why.",
       icon: <FaUserAstronaut className="text-violet-400 text-4xl" />,
-      link: "/hire-me"
+      link: "/hire-me",
     },
     {
       name: "Proof I Work",
       description:
         "I swear I have work experience. If you click on this card, my resume will pop up.",
       icon: <FaPaperclip className="text-violet-400 text-4xl" />,
-      link: "/work"
+      link: "/work",
     },
     {
       name: "I'm Social!",
       description:
         "Who doesn't have social media these days? I'm on Twitter, LinkedIn, and GitHub. Care to see them? Click on this card!",
       icon: <FaLaptop className="text-violet-400 text-4xl" />,
-      link: "/socials"
+      link: "/socials",
     },
     {
       name: "I Can Write",
@@ -51,7 +51,7 @@ export default function Dash() {
       description:
         "I've written a lot of words, but I've also written a lot of code. I even coded a documentation site for myself! Want to see? Click me!",
       icon: <FaCode className="text-violet-400 text-4xl" />,
-      link: "https://docs.sarahgerrard.me/"
+      link: "https://docs.sarahgerrard.me/",
     },
   ];
 

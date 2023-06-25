@@ -1,7 +1,7 @@
 import InfoPages from "./components/InfoPages";
 import Heading from "./components/Headings";
 import Paragraph from "./components/Paragraph";
-import Link from "./components/Link";
+import Link from "./components/CustomLinks";
 
 const WrapUp = () => {
   return (
@@ -28,8 +28,7 @@ const WrapUp = () => {
         .
       </Paragraph>
       <div className="text-center">
-        <Heading level={2}>Thanks for reading!
-        </Heading>
+        <Heading level={2}>Thanks for reading!</Heading>
       </div>
     </InfoPages>
   );
