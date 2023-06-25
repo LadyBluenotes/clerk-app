@@ -1,12 +1,11 @@
 import Link from "next/link";
-import NavPage from "./components/NavPage";
 import Paragraph from "./components/Paragraph";
 import Headings from "./components/Headings";
+import InfoPages from "./components/InfoPages";
 
 const WhyClerk = () => {
   return (
-    <main className="max-w-3xl mx-auto text-purple-950">
-      <section className="bg-white bg-opacity-80 backdrop-blur-sm my-4 rounded-lg h-fit px-5 py-6">
+    <InfoPages next={{title:"Why Me?", link: "/hire-me"}}>
         <Headings level={1}>Why Clerk?</Headings>
         <div>
           <Headings level={2}>The Introduction @ Render</Headings>
@@ -32,14 +31,7 @@ const WhyClerk = () => {
             Just to reiterate, the few Clerk people I interacted with at Render ATL are the driving force behind why I want to work with the team. They were all incredibly nice and welcoming, and I&apos;d love to be a part of a team like that. Being with supportive, kind people who foster growth and learning is something I&apos;ve been looking for in a job for a while now. I&apos;m glad to see that Clerk has that culture.
             </Paragraph>
         </div>
-      </section>
-      <NavPage
-        next={{
-          title: "Why Me?",
-          link: "/hire-me",
-        }}
-      />
-    </main>
+    </InfoPages>
   );
 };
 
