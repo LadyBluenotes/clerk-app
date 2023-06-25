@@ -2,6 +2,7 @@ import InfoPages from "./components/InfoPages";
 import Heading from "./components/Headings";
 import Paragraph from "./components/Paragraph";
 import Link from "next/link";
+import Images from "./components/Images";
 
 const WrapUp = () => {
   return (
@@ -29,6 +30,7 @@ const WrapUp = () => {
       </Paragraph>
       <div className="text-center">
         <Heading level={2}>Thanks for reading!</Heading>
+        <Images src="/assets/rocket.jpg" alt="Cartoon astronaut sitting on a moving rocket ship with a flag that has a rocket ship." />
       </div>
     </InfoPages>
   );

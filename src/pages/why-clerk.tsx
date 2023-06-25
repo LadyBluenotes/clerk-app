@@ -1,6 +1,7 @@
 import Paragraph from "./components/Paragraph";
 import Heading from "./components/Headings";
 import InfoPages from "./components/InfoPages";
+import Images from "./components/Images";
 
 const WhyClerk = () => {
   return (
@@ -26,6 +27,7 @@ const WhyClerk = () => {
           the team? Absolutely.
         </Paragraph>
         <Heading level={2}>The REAL Why</Heading>
+        <Images src="/assets/fist-bump.jpg" alt="Cartoon astronaut bumping fists with a cartoon alien" />
         <Heading level={3}>The Tech</Heading>
         <Paragraph>
           A few months ago, I spent <em>ages</em> trying to implement my own

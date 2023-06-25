@@ -2,6 +2,7 @@ import Heading from "./components/Headings";
 import InfoPages from "./components/InfoPages";
 import Paragraph from "./components/Paragraph";
 import Link from "next/link";
+import Images from "./components/Images";
 
 const Blog = () => {
   const docsHelp = ["SolidJS", "MUI", "Accessible for All", "Astro"];
@@ -31,6 +32,7 @@ const Blog = () => {
         and now I&apos;ve been using it to help people understand the tech
         industry.
       </Paragraph>
+      <Images src={"/assets/laptop.jpg"} alt={"Cartoon astronaut using a bright laptop and mouse with at text bubble filled with squiggles."} />
       <Heading level={2}>Documentation</Heading>
       <Paragraph>
         Starting with my first big open source contributions, I assisted the MUI

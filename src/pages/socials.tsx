@@ -4,6 +4,7 @@ import NavPage from "./components/NavPage";
 import Paragraph from "./components/Paragraph";
 import { FaSquareTwitter, FaLinkedin, FaSquareGithub } from "react-icons/fa6";
 import Link from "next/link";
+import Images from "./components/Images";
 
 const Socials = () => {
   const socialLinks = [
@@ -36,6 +37,7 @@ const Socials = () => {
       }}
     >
       <Heading level={1}>I&apos;m on Social Media!</Heading>
+      <Images src="/assets/scooter.jpg" alt="Cartoon astronaut sitting on a scooter with their hand in the air waving hello and with a text bubble with a heart." />
       <Paragraph>
         I&apos;m on Twitter, LinkedIn, and GitHub. Curious to see what I&apos;m
         up to? Click on the links below!

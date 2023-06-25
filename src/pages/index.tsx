@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <main className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-10">
         <div className="flex justify-center">
-          <SignInButton mode="modal" redirectUrl="/work">
+          <SignInButton mode="modal" redirectUrl="/">
             <button className="group inline-block bg-white/[.05] hover:bg-white/[.1] border border-white/[.05] p-1 pl-4 rounded-full shadow-md mr-2 text-white text-sm w-fit">
               About Me - Sarah Gerrard {"   "}
               <span className="group-hover:bg-white/[.1] py-2 px-3 inline-flex justify-center items-center gap-x-2 rounded-full bg-white/[.075] font-semibold text-white text-sm">

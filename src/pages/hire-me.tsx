@@ -1,4 +1,5 @@
 import Heading from "./components/Headings";
+import Images from "./components/Images";
 import InfoPages from "./components/InfoPages";
 import Paragraph from "./components/Paragraph";
 import Link from "next/link";
@@ -47,6 +48,7 @@ const HireMe = () => {
         <em>is what makes me a good candidate for Clerk?</em>
       </Paragraph>
       <Heading level={2}>My Tech Knowledge</Heading>
+      <Images src={"/assets/tech-skills.jpg"} alt={"Cartoon astronaut with a laptop in its hands."} />
       <ul className="list-disc px-6 ml-3 my-5">
         {techItems.map((item, index) => (
           <li key={index}>
@@ -55,6 +57,7 @@ const HireMe = () => {
         ))}
       </ul>
       <Heading level={2}>My Personal Skills</Heading>
+      <Images src={"/assets/suit.jpg"} alt={"Cartoon astronaut with a suit and a suitcase in its hands waving hello."} />
       <ul className="list-disc px-6 ml-3 my-5">
         {personalItems.map((item, index) => (
           <li key={index}>

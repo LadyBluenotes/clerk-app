@@ -2,7 +2,7 @@ import Paragraph from "./components/Paragraph";
 import Heading from "./components/Headings";
 import InfoPages from "./components/InfoPages";
 import Link from "next/link";
-import Image from "next/image";
+import Images from "./components/Images";
 
 const Resume = () => {
   return (
@@ -35,7 +35,7 @@ const Resume = () => {
         industry, I&apos;ve never felt more at home.
       </Paragraph>
       <Heading level={2}>With All That Said...</Heading>
-      <Image src="/assets/computer.jpg" width={300} height={300} alt="Cartoon astronaut looking at computer screen with fist in the air and a thought bubble with the frustrated symbol." className="rounded-xl shadow-lg mx-auto mb-3"/>
+      <Images src={"/assets/computer.jpg"} alt={"Astronaut working on computer with fist in the air and a text bubble with the"} />
       <Paragraph>
         I work incredibly hard. My resume shows this. I spend a lot of time
         contributing to open source, both with the intention to continue to
