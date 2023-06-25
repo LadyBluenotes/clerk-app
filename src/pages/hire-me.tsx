@@ -30,7 +30,7 @@ const HireMe = () => {
       }}
       next={{
         title: "Proof I Work",
-        link: "/resume",
+        link: "/work",
       }}
     >
       <Heading level={1}>Why Hire Me?</Heading>

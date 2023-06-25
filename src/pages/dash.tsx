@@ -20,7 +20,7 @@ export default function Dash() {
       link: "/why-clerk"
     },
     {
-      name: "Why Me?",
+      name: "Why Hire Me?",
       description:
         "So you know why I want to join Clerk. But why should you hire me? I'll tell you why.",
       icon: <FaUserAstronaut className="text-violet-400 text-4xl" />,
@@ -31,7 +31,7 @@ export default function Dash() {
       description:
         "I swear I have work experience. If you click on this card, my resume will pop up.",
       icon: <FaPaperclip className="text-violet-400 text-4xl" />,
-      link: "/resume"
+      link: "/work"
     },
     {
       name: "I'm Social!",

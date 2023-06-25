@@ -12,7 +12,7 @@ const Blog = () => {
         <NavPage
           prev={{
             title: "I'm Social!",
-            link: "/resume",
+            link: "/work",
           }}
         />
       </main>

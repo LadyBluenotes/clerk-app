@@ -3,11 +3,11 @@ import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
 
 const NavPage = ({ prev, next }: any) => {
   return (
-    <div className="grid md:grid-cols-2 lg:mx-24 pb-6 md:space-x-4 space-y-4 md:space-y-0">
+    <div className="grid md:grid-cols-2 w-full pb-6 md:space-x-4 space-y-4 md:space-y-0">
       {prev && (
         <Link
           href={prev.link}
-          className="py-8 px-8 text-center md:text-left rounded-lg bg-white bg-opacity-80 backdrop-blur-sm hover:bg-opacity-90 drop-shadow-lg flex flex-col"
+          className="py-6 px-6 text-center md:text-left rounded-lg bg-white bg-opacity-80 backdrop-blur-sm hover:bg-opacity-90 drop-shadow-lg flex flex-col"
         >
           <p className="text-start uppercase font-bold text-purple-900 mb-4">
             Prev
@@ -23,7 +23,7 @@ const NavPage = ({ prev, next }: any) => {
       {next && (
         <Link
           href={next.link}
-          className="py-8 px-8 text-center md:text-left rounded-lg bg-white bg-opacity-80 backdrop-blur-sm hover:bg-opacity-90 drop-shadow-lg flex flex-col"
+          className="py-6 px-6 text-center md:text-left rounded-lg bg-white bg-opacity-80 backdrop-blur-sm hover:bg-opacity-90 drop-shadow-lg flex flex-col"
         >
           <p className="text-end uppercase font-bold text-purple-900 mb-4">
             Next
