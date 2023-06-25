@@ -17,7 +17,11 @@ const Blog = () => {
     <InfoPages
       prev={{
         title: "I'm Social!",
-        link: "/work",
+        link: "/socials",
+      }}
+      next={{
+        title: "Wrap Up",
+        link: "/wrap-up",
       }}
     >
       <Heading level={1}>My Writing</Heading>
