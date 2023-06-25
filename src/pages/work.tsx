@@ -7,8 +7,8 @@ const Resume = () => {
   return (
     <InfoPages
       prev={{
-        title: "Why Me?",
-        link: "/work-exp",
+        title: "Why Clerk",
+        link: "/why-clerk",
       }}
       next={{
         title: "I'm Social!",

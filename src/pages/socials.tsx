@@ -33,7 +33,7 @@ const Socials = () => {
           }}
           next={{
             title: "I Can Write",
-            link: "/blog",
+            link: "/writing",
           }}
         >
           <Heading level={1}>

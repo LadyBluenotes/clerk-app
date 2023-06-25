@@ -47,18 +47,18 @@ const HireMe = () => {
         <em>is what makes me a good candidate for Clerk?</em>
       </Paragraph>
       <Heading level={2}>My Tech Knowledge</Heading>
-      <ul className="list-disc px-6 leading-relaxed">
+      <ul className="list-disc px-6 ml-3 my-5">
         {techItems.map((item, index) => (
           <li key={index}>
-            <Paragraph>{item}</Paragraph>
+            <p className="text-lg">{item}</p>
           </li>
         ))}
       </ul>
       <Heading level={2}>My Personal Skills</Heading>
-      <ul className="list-disc px-6">
+      <ul className="list-disc px-6 ml-3 my-5">
         {personalItems.map((item, index) => (
           <li key={index}>
-            <Paragraph>{item}</Paragraph>
+            <p className="text-lg">{item}</p>
           </li>
         ))}
       </ul>
