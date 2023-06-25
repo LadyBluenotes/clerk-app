@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 body {
-    background-color: #eff6ff;
+/* background gradient to be added here */
+background: #18181b;
+background-image: linear-gradient(55deg, #ffffff00, #5d00ff28);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
 }

@@ -1,33 +1,67 @@
-import Image from "next/image";
-import { UserButton, SignInButton, SignOutButton, SignedOut, SignedIn } from "@clerk/nextjs";
+import { SignIn, SignInButton } from "@clerk/nextjs";
 
 export default function Home() {
   return (
     <>
-      <header className="bg-blue-400 h-12 max-w-full flex">
-        <p className="pl-5 text-sm font-semibold flex items-center content-center h-full w-1/2">
-          Logo
-        </p>
-        <div className="pr-5 text-sm font-semibold flex items-center h-full w-1/2 justify-end">
-          <SignedOut>
-        <SignInButton mode="modal">
-          <button className="bg-blue-900 hover:bg-blue-800 px-3 py-2 rounded-lg text-white">
-            Sign In
+      <main className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-10">
+        <div className="flex justify-center">
+        <SignInButton mode="modal" redirectUrl="/about">
+          <button
+            className="group inline-block bg-white/[.05] hover:bg-white/[.1] border border-white/[.05] p-1 pl-4 rounded-full shadow-md mr-2 text-white text-sm w-fit"
+          >
+            About Me - Sarah Gerrard {"    "}
+            <span className="group-hover:bg-white/[.1] py-2 px-3 inline-flex justify-center items-center gap-x-2 rounded-full bg-white/[.075] font-semibold text-white text-sm">
+              <svg
+                className="w-2.5 h-2.5"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <path
+                  d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
           </button>
-        </SignInButton>
-        </SignedOut>
-        <SignedIn>
-          <UserButton
-            afterSignOutUrl="/"
-           />
-        </SignedIn>
+          </SignInButton>
         </div>
-        
-      </header>
-      <main>
-        <h1 className="text-4xl text-center font-bold pt-10">
-          Welcome to my Clerk Demo!
+        <div className="max-w-3xl text-center mx-auto mt-3">
+          <h1 className="block font-semibold text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+            Welcome to my application!
           </h1>
+        </div>
+        <div className="max-w-2xl text-center mx-auto mt-4">
+          <p className="text-lg text-gray-400">
+            This demo was created as both a way for me to learn Clerk, as well
+            as a way to show off my skills as a developer. Upon sign in, I will
+            provide a bit more information about me.
+          </p>
+        </div>
+        <div className="mt-6 text-center">
+          <SignInButton mode="redirect" redirectUrl="/dash">
+            <button className="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-l from-blue-600 to-violet-600 shadow-lg shadow-transparent hover:shadow-blue-700/50 border border-transparent text-white text-sm font-medium rounded-full focus:outline-none focus:ring-2 focus:ring-sky-600 focus:ring-offset-2 focus:ring-offset-white py-2 px-4">
+              Have a look around!
+              <svg
+                className="w-2.5 h-2.5"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <path
+                  d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+          </SignInButton>
+        </div>
       </main>
     </>
   );
