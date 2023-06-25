@@ -1,7 +1,7 @@
 import InfoPages from "./components/InfoPages";
 import Heading from "./components/Headings";
 import Paragraph from "./components/Paragraph";
-import Link from "./components/CustomLinks";
+import Link from "next/link";
 
 const WrapUp = () => {
   return (
@@ -22,9 +22,9 @@ const WrapUp = () => {
         <a href="https://sarahgerrard.me/socials">here</a>, or I can be reached
         via email at{" "}
         <Link
-          href="mailto:gerrardsarah@gmail.com"
-          words="gerrardsarah@gmail.com"
-        />
+          href="mailto:gerrardsarah@gmail.com" className="font-semibold text-purple-800"
+          >gerrardsarah@gmail.com
+        </Link>
         .
       </Paragraph>
       <div className="text-center">

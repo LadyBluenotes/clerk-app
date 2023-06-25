@@ -1,8 +1,7 @@
-import Header from "./components/Header";
 import Heading from "./components/Headings";
 import InfoPages from "./components/InfoPages";
 import Paragraph from "./components/Paragraph";
-import Links from "./components/CustomLinks";
+import Link from "next/link";
 
 const Blog = () => {
   const docsHelp = ["SolidJS", "MUI", "Accessible for All", "Astro"];
@@ -52,10 +51,13 @@ const Blog = () => {
       </Paragraph>
       <Paragraph>
         Through these projects, I even gained the motivation to create a{" "}
-        <Links
+        <Link
           href="https://docs.sarahgerrard.me/"
-          words="documentation site"
-        />{" "}
+          className="font-semibold text-purple-800"
+        >
+          {" "}
+          documentation site{" "}
+        </Link>
         for my own projects.
       </Paragraph>
       <Heading level={2}>Blog Posts</Heading>
@@ -64,26 +66,37 @@ const Blog = () => {
         more complex concepts in the tech industry. I&apos;ve written about:
         <ul className="list-disc pl-16 my-5">
           <li>
-            <Links
+            <Link
               href="https://blog.sarahgerrard.me/unraveling-the-magic-of-the-virtual-dom"
-              words="Unraveling the Magic of the Virtual DOM"
-            />
+              className="font-semibold text-purple-800"
+            >
+              Unraveling the Magic of the Virtual DOM
+            </Link>
           </li>
           <li>
-            <Links
+            <Link
               href="https://blog.sarahgerrard.me/the-fundamentals-of-algorithms"
-              words="The Fundamentals of Algorithms"
-            />
+              className="font-semibold text-purple-800"
+            >
+              The Fundamentals of Algorithms
+            </Link>
           </li>
           <li>
-            <Links
+            <Link
               href="https://blog.sarahgerrard.me/git-and-the-command-line"
-              words="Streamlining Your Workflow with Git and the Command Line"
-            />
+              className="font-semibold text-purple-800"
+            >
+              Streamlining Your Workflow with Git and the Command Line
+            </Link>
           </li>
         </ul>
         Just to name a few! More of my blogs can be found at my{" "}
-        <Links href="https://blog.sarahgerrard.me/" words="blog site" />.
+        <Link
+          href="https://blog.sarahgerrard.me/"
+          className="font-semibold text-purple-800"
+        >
+          blog site.
+        </Link>
       </Paragraph>
     </InfoPages>
   );

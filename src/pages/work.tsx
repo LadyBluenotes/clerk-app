@@ -1,7 +1,7 @@
 import Paragraph from "./components/Paragraph";
 import Heading from "./components/Headings";
 import InfoPages from "./components/InfoPages";
-import Links from "./components/CustomLinks";
+import Link from "next/link";
 
 const Resume = () => {
   return (
@@ -67,7 +67,7 @@ const Resume = () => {
           </svg>
           <div className="space-y-2">
             <p className="mb-2">Take a look at my resume!</p>
-            <Links href="/resume" words="Click Here →" />
+            <Link href="/resume" className="font-semibold text-purple-800">Click Here →</Link>
           </div>
         </div>
       </div>

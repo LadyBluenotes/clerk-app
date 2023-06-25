@@ -1,7 +1,7 @@
 import Heading from "./components/Headings";
 import InfoPages from "./components/InfoPages";
 import Paragraph from "./components/Paragraph";
-import Link from "./components/CustomLinks";
+import Link from "next/link";
 
 const HireMe = () => {
   const techItems = [
@@ -65,9 +65,16 @@ const HireMe = () => {
       <Paragraph>
         I&apos;ve said a lot up to this point, but I think the best way to show
         you what I can do is to show you what I&apos;ve done. Check out{" "}
-        <Link href={"/resume"} words={"my resume"} /> to see my work experience,
-        or check out <Link href={"/projects"} words={"my portfolio"} /> to see
-        what I&apos;ve built.
+        <Link href={"/resume"} className="font-semibold text-purple-800">
+          {" "}
+          my resume
+        </Link>{" "}
+        to see my work experience, or check out{" "}
+        <Link href={"/projects"} className="font-semibold text-purple-800">
+          {" "}
+          my portfolio
+        </Link>{" "}
+        to see what I&apos;ve built.
       </Paragraph>
     </InfoPages>
   );
