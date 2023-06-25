@@ -7,8 +7,8 @@ const WrapUp = () => {
   return (
     <InfoPages
       prev={{
-        title: "I Can Write",
-        link: "/writing",
+        title: "I Can Code!",
+        link: "/code",
       }}
     >
       <Heading level={1}>That&apos;s Me!</Heading>

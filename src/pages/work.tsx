@@ -2,6 +2,7 @@ import Paragraph from "./components/Paragraph";
 import Heading from "./components/Headings";
 import InfoPages from "./components/InfoPages";
 import Link from "next/link";
+import Image from "next/image";
 
 const Resume = () => {
   return (
@@ -24,13 +25,17 @@ const Resume = () => {
         switch in 2021. There&apos; a long story with me and technology, ranging
         back to the early 2000&apos;s with my first computer to pursuing a
         certificate in Computer Aided Design while in High school. But, for me,
-        tech has always been instrumental in my life. Being surrouneded by
+        tech has always been instrumental in my life. 
+        </Paragraph>
+        <Paragraph>
+        Being surrouneded by
         people talking about &quot;traditional&quot; careers, I succumed to that
         pressure and followed the path I was told. But, truth be told, I never
         felt like it was the place for me and since spending time in the tech
         industry, I&apos;ve never felt more at home.
       </Paragraph>
       <Heading level={2}>With All That Said...</Heading>
+      <Image src="/assets/computer.jpg" width={300} height={300} alt="Cartoon astronaut looking at computer screen with fist in the air and a thought bubble with the frustrated symbol." className="rounded-xl shadow-lg mx-auto mb-3"/>
       <Paragraph>
         I work incredibly hard. My resume shows this. I spend a lot of time
         contributing to open source, both with the intention to continue to
@@ -49,7 +54,7 @@ const Resume = () => {
         that I can be a great asset to Clerk and I would love the opportunity to
         prove it.
       </Paragraph>
-      <div className="relative group mt-5">
+      <div className="relative group mt-5 md:w-1/2 mx-auto">
         <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
         <div className="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
           <svg

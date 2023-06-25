@@ -13,8 +13,8 @@ const Blog = () => {
         link: "/socials",
       }}
       next={{
-        title: "Wrap Up",
-        link: "/wrap-up",
+        title: "I Can Code",
+        link: "/code",
       }}
     >
       <Heading level={1}>My Writing</Heading>
@@ -41,14 +41,14 @@ const Blog = () => {
       <Paragraph>
         I&apos;ve been helping with the documentation for the following
         projects:
-        <ul className="list-disc pl-16 my-5">
-          {docsHelp.map((item, index) => (
-            <li key={index}>
-              <p className="text-large">{item}</p>
-            </li>
-          ))}
-        </ul>
       </Paragraph>
+      <ul className="list-disc pl-16 my-3">
+        {docsHelp.map((item, index) => (
+          <li key={index}>
+            <p className="text-lg">{item}</p>
+          </li>
+        ))}
+      </ul>
       <Paragraph>
         Through these projects, I even gained the motivation to create a{" "}
         <Link

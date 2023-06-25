@@ -45,13 +45,14 @@ export default function Dash() {
       description:
         "I have a blog! When I really grasp topics (or have time), I like to write about them as if they're directed at me of the past. Click on this card, and you'll be taken to my blog.",
       icon: <FaFilePen className="text-violet-400 text-4xl" />,
+      link: "/writing",
     },
     {
       name: "I Can Code",
       description:
         "I've written a lot of words, but I've also written a lot of code. I even coded a documentation site for myself! Want to see? Click me!",
       icon: <FaCode className="text-violet-400 text-4xl" />,
-      link: "https://docs.sarahgerrard.me/",
+      link: "/code",
     },
   ];
 
