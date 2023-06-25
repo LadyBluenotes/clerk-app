@@ -22,8 +22,8 @@ const Blog = () => {
       <Paragraph>
         The more I got into the tech industry, the more I realized it suffers
         from similar quirks as the healthcare industry. A lot of the industry
-        specific jargon is used to overcomplicate beginner concepts and, felt
-        like, it was used to gatekeep people from entering the industry.
+        specific jargon is used to overcomplicate beginner concepts and I felt
+        like it was used to gatekeep people from entering the industry.
       </Paragraph>
       <Paragraph>
         One of my superpowers in life is being able to take complex concepts and

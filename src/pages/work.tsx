@@ -22,14 +22,14 @@ const Resume = () => {
         So, I haven&apos;t always been a software developer (shocking, right?)
         but I don&apos;t come from a traditional background. I am actually from
         a healthcare-based background, having made the intentional decision to
-        switch in 2021. There&apos; a long story with me and technology, ranging
+        switch in 2021. There&apos;s a long story with me and technology, ranging
         back to the early 2000&apos;s with my first computer to pursuing a
-        certificate in Computer Aided Design while in High school. But, for me,
+        certificate in Computer Aided Design while in high school. But, for me,
         tech has always been instrumental in my life. 
         </Paragraph>
         <Paragraph>
-        Being surrouneded by
-        people talking about &quot;traditional&quot; careers, I succumed to that
+        Being surrounded by
+        people talking about &quot;traditional&quot; careers, I succumbed to that
         pressure and followed the path I was told. But, truth be told, I never
         felt like it was the place for me and since spending time in the tech
         industry, I&apos;ve never felt more at home.
@@ -41,7 +41,7 @@ const Resume = () => {
         contributing to open source, both with the intention to continue to
         learn and develop and to give back to the community that has supported
         my learning. In my spare time, I&apos;m either working on a side project
-        or learning a new tech (I do have hobbies outside of tech tho).
+        or learning a new tech (I do have hobbies outside of tech, though).
       </Paragraph>
       <Paragraph>
         I believe that I can be a great candidate and asset to Clerk. Given my
