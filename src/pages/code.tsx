@@ -34,7 +34,7 @@ const Code = () => {
       <Heading level={1}>I Can Code!</Heading>
       <Images src="/assets/superhero.jpg" alt="Cartoon astronaut with a superhero cape on and in a superman pose with a fist in the air and one on his hips." />
       <Paragraph>
-        I've written a lot of words, but I've also written a lot of code. I even
+        I&apos;ve written a lot of words, but I&apos;ve also written a lot of code. I even
         coded a documentation site for myself! If you want to see my
         documentation site, you can click{" "}
         <Link
@@ -43,10 +43,10 @@ const Code = () => {
         >
           here
         </Link>{" "}
-        but I want to warn you it's still a work in progress.
+        but I want to warn you it&apos;s still a work in progress.
       </Paragraph>
       <Paragraph>
-        Care to see some of my other projects? Admittedly some are a little rough around the edges, but I've listed a few of my favorites
+        Care to see some of my other projects? Admittedly some are a little rough around the edges, but I&apos;ve listed a few of my favorites
         below:
       </Paragraph>
       <div className="flex flex-row justify-center">
